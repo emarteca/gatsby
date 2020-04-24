@@ -18,7 +18,7 @@ const ignoreDirs = [`<rootDir>/packages/gatsby-dev-cli/verdaccio`].concat(
 )
 
 const coverageDirs = pkgs.map(p => path.join(p, `src/**/*.js`))
-const useCoverage = !!process.env.GENERATE_JEST_REPORT
+const useCoverage = true //!!process.env.GENERATE_JEST_REPORT
 
 module.exports = {
   notify: true,
@@ -56,5 +56,5 @@ module.exports = {
     : [`default`].concat(useCoverage ? `jest-junit` : []),
   testEnvironment: `jest-environment-jsdom-fourteen`,
   moduleFileExtensions: [`js`, `jsx`, `ts`, `tsx`, `json`],
-  setupFiles: [`<rootDir>/.jestSetup.js`],
+  setupFiles: [`<rootDir>/.jestSetup.js`, `<rootDir>/unit-error-hack.js`],
 }

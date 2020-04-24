@@ -1,0 +1,43 @@
+handleBadExports adds fixes if close match/typo
+build-headers-program without app-data file
+query caching between builds Changed data node used for static query rerunning after cache clearing - should run all queries
+gatsby-plugin resource validates the gatsby-source-filesystem specifies a key that isn't equal to the name
+query caching between builds Baseline first run - should run all queries
+gatsby-plugin resource e2e plugin resource test
+create-file-node-from-buffer functionality caches the buffer's content locally
+packageJson resource e2e package resource test
+"query caching between builds Running ""queries"" for page without query rerunning after cache clearing - should run all queries"
+gatsby-plugin resource adds multiple gatsby-source-filesystems and reads with key
+git ignore resource e2e test
+gatsby-transformer-sqip generateSqip not cached
+ should store created/changed/deleted resources on the context after applying plan
+query caching between builds Changed data not used by either page or static queries rerunning after cache clearing - should run all queries
+query caching between builds Changed data node used for pages reruns queries only for listing and detail page that uses that node (with restart)
+npm package resource e2e npm package resource test
+file resource e2e file resource test
+git ignore resource does not add duplicate entries
+build-headers-program with security headers
+ it should switch to done after the final apply step
+gatsby-plugin resource handles config options as an object
+gatsby-plugin resource e2e plugin resource test with hello world starter
+ plan returns a description
+packageJson resource handles object values
+handleBadExports adds info on plugin if a plugin API error
+Shadow File resource e2e shadow file resource test
+create-file-node-from-buffer functionality uses cached file Promise for buffer with a matching hash
+query caching between builds Changed data node used for pages reruns queries only for listing and detail page that uses that node (no restart)
+gatsby-plugin resource does not add the same plugin twice by default
+gatsby-transformer-sqip generateSqip cached
+gatsby-plugin resource validates the gatsby-source-filesystem specifies a key
+build-headers-program without caching headers
+build-headers-program with badly headers configuration
+query caching between builds Changed data node used for pages rerunning after cache clearing - should run all queries
+query caching between builds Baseline rerunning after cache clearing - should run all queries
+build-headers-program with manifest['pages-manifest']
+npm script resource e2e script resource test
+"downloading APIs failure falls back to downloaded cached file, if it exists"
+file resource e2e remote file resource test
+create-file-node creates a file node
+handleBadExports Calls structured error with reporter.error when bad exports are detected
+build-headers-program with caching headers
+handleBadExports Adds fixes to context if newer API introduced in Gatsby
